@@ -36,6 +36,7 @@ def install_postgresql():
         else:
             # Install PostgreSQL
             subprocess.run(['apt-get', 'install', 'postgresql', '-y'])  # Use the appropriate command for your system (apt, yum, etc.)
+            subprocess.run(['sudo', '-u', 'postgres', 'psql', '-c', f"ALTER USER postgres WITH PASSWORD '0000';"])
             print('PostgreSQL installed successfully.')
 
             while True:
