@@ -49,4 +49,4 @@ Contributions to the install_postgresql.py script are welcome. If you find any i
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or inquiries, please contact frist@fristikon.site
+For any questions or inquiries, please contact frist@fristikon.ru
